@@ -22,4 +22,4 @@ jobs:
           pip install -r requirements.txt
 
       - run: |
-          - run: PYTHONPATH=. pytest -q
+        - run: PYTHONPATH=. pytest -q
